@@ -1,0 +1,30 @@
+<<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<center><h1>Cyber Security Deparment </h1><center>
+<h2>Student Information Form </h2><center>
+
+<form action="/action_page.php"><center>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" ><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" ><br><br>
+  <label for="fname">PRN No:</label>
+  <input type="text" id="fname" name="fname" ><br><br>
+  <p>Studing In:</p>
+  <input type="radio" id="html" name="fav_language" value="first ">
+  <label for="html">First Year</label><br><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Second Year</label><br><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Third Year</label><br><br>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">Final Year</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
